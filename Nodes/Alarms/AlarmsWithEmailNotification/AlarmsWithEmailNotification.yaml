@@ -61,7 +61,6 @@ Children:
   - Class: Reference
     Type: GeneratesEvent
     Target: g=723ffaad76f69a19626a6b548aebb4f3
-    Direction: Forward
 - Name: ExclusiveLevelAlarmWithEmailNotificationType
   Id: g=bced33d3eb396f8fc1c56bce4d70497e
   Supertype: ExclusiveLevelAlarmController
@@ -116,7 +115,6 @@ Children:
   - Class: Reference
     Type: GeneratesEvent
     Target: g=f22aac9c5c8b8b8b70f8f21e999189d9
-    Direction: Forward
 - Name: ExclusiveDeviationAlarmWithEmailNotificationType
   Id: g=638bb91b52dbb16301a948f09112b286
   Supertype: ExclusiveDeviationAlarmController
@@ -176,7 +174,6 @@ Children:
   - Class: Reference
     Type: GeneratesEvent
     Target: g=2829d91e660d12c901feae80f5038b5b
-    Direction: Forward
 - Name: ExclusiveRateOfChangeAlarmWithEmailNotificationType
   Id: g=b6e6234496af1c7ea383e82b8a02c39f
   Supertype: ExclusiveRateOfChangeAlarmController
@@ -236,7 +233,6 @@ Children:
   - Class: Reference
     Type: GeneratesEvent
     Target: g=caefd95f276a0bfba04cc253dbf85d2c
-    Direction: Forward
 - Name: NonExclusiveLevelAlarmWithEmailNotificationType
   Id: g=219bf93076a8cbc3b7ea335b3b2041b0
   Supertype: NonExclusiveLevelAlarmController
@@ -291,7 +287,6 @@ Children:
   - Class: Reference
     Type: GeneratesEvent
     Target: g=d292a8cf55cfc7419b94f2aa6835232a
-    Direction: Forward
 - Name: NonExclusiveDeviationAlarmWithEmailNotificationType
   Id: g=64de67baa6c7953fe582a9dda137d211
   Supertype: NonExclusiveDeviationAlarmController
@@ -351,7 +346,6 @@ Children:
   - Class: Reference
     Type: GeneratesEvent
     Target: g=908e5e1b4b1448e4b2f057fc7a74f35c
-    Direction: Forward
 - Name: NonExclusiveRateOfChangeAlarmWithEmailNotificationType
   Id: g=4c795607d14cee49e122cc7998cb7daf
   Supertype: NonExclusiveRateOfChangeAlarmController
@@ -411,4 +405,3 @@ Children:
   - Class: Reference
     Type: GeneratesEvent
     Target: g=cf990c74516f2854cf2d5575e58d2676
-    Direction: Forward

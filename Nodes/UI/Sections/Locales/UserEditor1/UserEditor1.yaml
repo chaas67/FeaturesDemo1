@@ -91,6 +91,7 @@ Children:
         Children:
         - Class: Reference
           Target: ns=9;i=481
+          Direction: Forward
         - Name: Model
           Id: g=0ecf3f6adb240a4bb61e62b04b57fe17
           Type: NodePointer
@@ -211,6 +212,7 @@ Children:
         Children:
         - Class: Reference
           Target: ns=9;i=478
+          Direction: Forward
         - Name: Panel
           Id: g=cbb24c3e9bedbc86fa54f2ad776c7ac7
           Type: NodePointer
@@ -1253,6 +1255,7 @@ Children:
                 Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Class: Reference
               Target: ns=9;i=480
+              Direction: Forward
             - Name: LocaleComboBoxLogic
               Id: g=feb8d07282475b007d1e241d7602a706
               Type: NetLogic
@@ -1643,6 +1646,7 @@ Children:
             Value: [{"TypeId":{"Id":296},"Body":{"Name":"user","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
         - Class: Reference
           Target: g=7b0c1c3a553652c60280c95b59b01052
+          Direction: Forward
       - Name: User
         Id: g=956c9e3f0dc2ccbdcd92773598f11797
         Type: NodePointer
@@ -2645,6 +2649,7 @@ Children:
                 Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Class: Reference
               Target: ns=9;i=480
+              Direction: Forward
             - Name: LocaleComboBoxLogic
               Id: g=871de87d3318e5943bd5f7af9a0901f5
               Type: NetLogic
@@ -3145,8 +3150,10 @@ Children:
         Children:
         - Class: Reference
           Target: g=595bfb60710b9661d7f063cf75ecdf1c
+          Direction: Forward
         - Class: Reference
           Target: g=7b0c1c3a553652c60280c95b59b01052
+          Direction: Forward
       - Name: User
         Id: g=339f8e886a7c4776c0a3a844a238c242
         Type: NodePointer
@@ -3306,6 +3313,7 @@ Children:
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Class: Reference
     Target: ns=9;i=480
+    Direction: Forward
   - Name: Width
     Id: g=97a386d31f46ffa69ade0a11fb6b01a4
     Type: BaseVariableType

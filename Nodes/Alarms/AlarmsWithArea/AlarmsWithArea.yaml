@@ -39,7 +39,6 @@ Children:
   - Class: Reference
     Type: GeneratesEvent
     Target: g=60f6d871892beb3fe452474ddbf95c11
-    Direction: Forward
 - Name: DigitalAlarmWithArea1
   Id: g=3ef21feccc242ffdb24a7f2a5f69fde7
   Type: DigitalAlarmWithAreaType

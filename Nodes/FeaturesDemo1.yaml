@@ -60,24 +60,21 @@ Children:
   Type: PropertyGroup
   Children:
   - Name: BranchingEnabled
-    Type: BaseDataVariableType
+    Type: PropertyType
     DataType: Boolean
-    ReferenceType: HasProperty
     Value: false
 - Name: Localization
   Type: PropertyGroup
   Children:
   - Name: Locales
-    Type: BaseDataVariableType
+    Type: PropertyType
     DataType: String
-    ReferenceType: HasProperty
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US","it-IT","zh-CN"]
   - Name: LocaleFallbackList
-    Type: BaseDataVariableType
+    Type: PropertyType
     DataType: String
-    ReferenceType: HasProperty
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]

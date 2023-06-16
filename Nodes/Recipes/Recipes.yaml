@@ -244,6 +244,9 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       Value: ""
+  - Class: Reference
+    Target: ns=17;i=76
+    Direction: Forward
 - Name: RecipeSchema
   Id: g=3609f1ca6453998b70b0910817daf532
   Type: RecipeSchema
@@ -350,3 +353,6 @@ Children:
       ValueRank: OneDimension
       ArrayDimensions: [3]
       Value: [0,0,0]
+  - Class: Reference
+    Target: ns=17;i=76
+    Direction: Forward

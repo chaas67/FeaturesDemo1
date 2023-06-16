@@ -1172,6 +1172,9 @@ Children:
           DataType: SortOrderEnum
           ModellingRule: Optional
           Value: 1
+        - Class: Reference
+          Target: ns=9;i=504
+          Direction: Forward
       - Name: ValueAutoRefresh
         Id: g=b2c050db1f82fdefd92e5b1dc6ccd186
         Type: CheckBox
@@ -6400,6 +6403,9 @@ Children:
         DataType: SortOrderEnum
         ModellingRule: Optional
         Value: 1
+      - Class: Reference
+        Target: ns=9;i=504
+        Direction: Forward
     - Name: BorderColor
       Id: g=4762e68af0d52c59096d9f5cd7d11d32
       Type: BaseDataVariableType
@@ -16905,6 +16911,9 @@ Children:
         DataType: SortOrderEnum
         ModellingRule: Optional
         Value: 1
+      - Class: Reference
+        Target: ns=9;i=504
+        Direction: Forward
     - Name: Refresh
       Id: g=bf0c985a1f8a4eb6c852863f92b06c9c
       Type: Button
@@ -24262,6 +24271,9 @@ Children:
         DataType: NodeId
         AccessLevel: Read
         Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Class: Reference
+        Target: ns=9;i=504
+        Direction: Forward
     - Name: VerticalLayout
       Id: g=b802ca8f5da205e74dad3e7b79b9d615
       Type: ColumnLayout
@@ -25339,6 +25351,9 @@ Children:
           DataType: NodeId
           AccessLevel: Read
           Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Class: Reference
+          Target: ns=9;i=504
+          Direction: Forward
       - Name: FolderPath
         Id: g=a225b68587e38491f1e49e3b6e28c7b6
         Type: BaseDataVariableType

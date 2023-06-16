@@ -183,7 +183,7 @@ Children:
     - Name: HoleSizePercent
       Id: g=a02c2f8058f26fa2169cb30d0eea4d87
       Type: BaseDataVariableType
-      DataType: Double
+      DataType: Percentage
       Value: 0.0
       Children:
       - Name: DynamicLink
@@ -369,7 +369,7 @@ Children:
     - Name: HoleSizePercent
       Id: g=12c82a54b2140a24a3448e57095230b5
       Type: BaseDataVariableType
-      DataType: Double
+      DataType: Percentage
       Value: 0.0
       Children:
       - Name: DynamicLink
@@ -484,7 +484,7 @@ Children:
     - Name: HoleSizePercent
       Id: g=c8dabd4e8b2b78d22678361f5d3bfdb8
       Type: BaseDataVariableType
-      DataType: Double
+      DataType: Percentage
       Value: 0.0
       Children:
       - Name: DynamicLink
@@ -723,7 +723,7 @@ Children:
     - Name: HoleSizePercent
       Id: g=bdc47f44f059e9a629bb0d4b77e33668
       Type: BaseDataVariableType
-      DataType: Double
+      DataType: Percentage
       Value: 0.0
       Children:
       - Name: DynamicLink
@@ -998,7 +998,7 @@ Children:
     - Name: HoleSizePercent
       Id: g=f53be23b8ce4f3334c49b9a29333a8df
       Type: BaseDataVariableType
-      DataType: Double
+      DataType: Percentage
       Value: 0.0
       Children:
       - Name: DynamicLink
@@ -2273,13 +2273,13 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 0.0
+            Value: 18.0
           - Name: TopMargin
             Id: g=0564aa882be41018a3d8e2a0aada1b2c
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 0.0
+            Value: -100.0
           - Name: Text
             Id: g=7bb671a6b37c3f307e9c0ba3fa874459
             Type: BaseDataVariableType
@@ -2409,6 +2409,18 @@ Children:
                     DataType: ResourceUri
                     ModellingRule: None
                     Value: "ns=38;%PROJECTDIR%/Graphics/Custom/IconUniqoCustomNativeUI.svg"
+          - Name: RightMargin
+            Id: g=1c9c0595b71a02dc1b976d6cdf580c74
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: BottomMargin
+            Id: g=837d0e569c761896921518442965cd43
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
       - Name: Panel2
         Id: g=412fd76f4b1021d0afbc118358066361
         Type: Panel

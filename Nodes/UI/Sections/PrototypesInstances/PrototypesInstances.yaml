@@ -2492,6 +2492,9 @@ Children:
           DataType: NodeId
           AccessLevel: Read
           Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Class: Reference
+          Target: ns=9;i=504
+          Direction: Forward
       - Name: AcknowledgeButton
         Id: g=962228aa000bdb750468a8d231e7f34f
         Type: Button
@@ -4042,7 +4045,7 @@ Children:
       - Name: Rotation
         Id: g=8327e854f69cefcf21ec1efb9a5573db
         Type: BaseVariableType
-        DataType: Float
+        DataType: Size
         Value: 0.0
       - Name: FillMode
         Id: g=48d295c45eeb197f2f723227069a7eb9
@@ -4053,7 +4056,7 @@ Children:
     - Name: Rotation
       Id: g=e2294869bbb2f4b0ad76a28cb7cb0ea5
       Type: BaseVariableType
-      DataType: Float
+      DataType: Size
       Value: 0.0
     - Name: Running
       Id: g=954f4bcb13794e355e8113642f755bdc

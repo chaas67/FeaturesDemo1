@@ -1158,6 +1158,9 @@ Children:
         DataType: NodeId
         AccessLevel: Read
         Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Class: Reference
+        Target: ns=9;i=504
+        Direction: Forward
   - Name: Footer
     Id: g=d404dc7dbe564d6904c237fb115901ff
     Type: Panel

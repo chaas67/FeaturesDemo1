@@ -5460,7 +5460,7 @@ Children:
               - Name: Rotation
                 Id: g=deeeada25e81815ca2ad0b42cde6378f
                 Type: BaseVariableType
-                DataType: Float
+                DataType: Size
                 Value: 0.0
               - Name: FillMode
                 Id: g=7ee522c5ab818f3a9b693f50554fadad
@@ -5471,7 +5471,7 @@ Children:
             - Name: Rotation
               Id: g=ed1038987755da1a789df58d121c5098
               Type: BaseVariableType
-              DataType: Float
+              DataType: Size
               Value: 0.0
             - Name: Running
               Id: g=e83b9a3a7edae3af4045c32687ea5a9c
